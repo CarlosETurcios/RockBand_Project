@@ -10,4 +10,4 @@ the goal is to creat a web sight that has good user interface while memicing old
 
 ## stack
 
-React/JavaScript
+HTML/CSS/React/JavaScript
