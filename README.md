@@ -11,3 +11,7 @@ the goal is to creat a web sight that has good user interface while memicing old
 ## stack
 
 HTML/CSS/React/JavaScript
+
+## merch section
+
+must add a merch section so customer may purchase items 
