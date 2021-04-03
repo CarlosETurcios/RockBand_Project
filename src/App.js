@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import Biography from './pages/Biography'
+import Tourdates from './pages/Tourdates'
+import Merch from './pages/Merch'
+import News from './pages/News'
 
 function App() {
   return (
