@@ -5,7 +5,7 @@
 function News(){
 
     return(
-        <div>coming soon!</div>
+        <div>coming soon! new news </div>
     )
 }
 
