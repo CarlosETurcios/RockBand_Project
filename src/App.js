@@ -7,10 +7,11 @@ import Merch from './pages/news'
 import Home from './pages/home'
 import {Route, BrowserRouter as Router, Link} from 'react-router-dom'
 
+
 function App() {
   return (
     <Router>
-    <div className="App">
+    <div className="App" >
       <header className="App-header">
         <nav>
           <Link to="/">Home</Link>

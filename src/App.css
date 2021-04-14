@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-image: url(./images/dave-hoefler-eYJwtMpuhJQ-unsplash.jpg);
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .App-logo {
@@ -14,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
