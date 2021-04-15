@@ -12,22 +12,24 @@ function App() {
   return (
     <Router>
       <div className="App" >
-        <div className="headerlinks">
-              <nav>
-                <div class="home"><Link to="/">Home</Link></div>
-                <div class="bio"><Link to="/Biography">Biography</Link></div>
-                <div class="tour"><Link to="/Tourdates">Tour Dates</Link></div>
-                <div class="news"> <Link to="/News">News</Link></div>
-                <div class='merch'>  <Link to="/Merch">Merch</Link></div>
-              </nav>
-        </div>
-        <header className="App-header">
-        <Route path="/" exact component={Home}/>
-        <Route path="/Biography" component={Biography}/>
-        <Route path="/Tourdates" component={Tourdates}/>
-        <Route path="/News" component={News}/>
-        <Route path="/Merch" component={Merch}/>
-        </header>
+        <div className="main">
+          <header className="App-header">
+          <div class="home"><Link to="/">Home</Link></div>
+            <div class="bio"><Link to="/Biography">Biography</Link></div>
+            <div class="tour"><Link to="/Tourdates">Tour Dates</Link></div>
+            <div class="news"> <Link to="/News">News</Link></div>
+            <div class='merch'>  <Link to="/Merch">Merch</Link></div>
+          </header> 
+        </div>  
+
+          <div className="body">
+            <Route path="/" exact component={Home}/>
+            <Route path="/Biography" component={Biography}/>
+            <Route path="/Tourdates" component={Tourdates}/>
+            <Route path="/News" component={News}/>
+            <Route path="/Merch" component={Merch}/>
+          </div>
+      
       </div>
     </Router>
   );
