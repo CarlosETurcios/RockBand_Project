@@ -28,10 +28,38 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border: 3px red;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.headerlinks {
+  display:  flex;
+  flex-direction: column;
+  border: 3px red;
+  
+}
+.home {
+  border: 3px red;
+
+}
+.bio{
+  border: 3px red;
+
+}
+.tour {
+  border: 3px red;
+
+}
+.news {
+  border: 3px red;
+
+}
+.merch {
+  border: 3px red;
+
 }
 
 @keyframes App-logo-spin {
@@ -42,3 +70,4 @@
     transform: rotate(360deg);
   }
 }
+ 

@@ -11,25 +11,24 @@ import {Route, BrowserRouter as Router, Link} from 'react-router-dom'
 function App() {
   return (
     <Router>
-    <div className="App" >
-      <header className="App-header">
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/Biography">Biography</Link>
-          <Link to="/Tourdates">Tour Dates</Link>
-          <Link to="/News">News</Link>
-          <Link to="/Merch">Merch</Link>
-        </nav>
-
-       <p>this is for Deacon Hill</p>
-       <Route path="/" exact component={Home}/>
-       <Route path="/Biography" component={Biography}/>
-       <Route path="/Tourdates" component={Tourdates}/>
-       <Route path="/News" component={News}/>
-       <Route path="/Merch" component={Merch}/>
-
-      </header>
-    </div>
+      <div className="App" >
+        <div className="headerlinks">
+              <nav>
+                <div class="home"><Link to="/">Home</Link></div>
+                <div class="bio"><Link to="/Biography">Biography</Link></div>
+                <div class="tour"><Link to="/Tourdates">Tour Dates</Link></div>
+                <div class="news"> <Link to="/News">News</Link></div>
+                <div class='merch'>  <Link to="/Merch">Merch</Link></div>
+              </nav>
+        </div>
+        <header className="App-header">
+        <Route path="/" exact component={Home}/>
+        <Route path="/Biography" component={Biography}/>
+        <Route path="/Tourdates" component={Tourdates}/>
+        <Route path="/News" component={News}/>
+        <Route path="/Merch" component={Merch}/>
+        </header>
+      </div>
     </Router>
   );
 }
