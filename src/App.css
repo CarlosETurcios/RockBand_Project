@@ -32,10 +32,7 @@
   /* border: solid 3px red; */
 }
 
-.App-link {
-  width: 50%;
-  color: #61dafb;
-}
+
 
 .main {
   display: flex;
@@ -44,13 +41,15 @@
 }
 
 .home {
-  
+  color: red;
+  background-color: red;
  
 
   /* border: solid 3px red; */
 
 }
 .bio{
+  color: red;
   /* border: solid 3px red; */
 
 }
@@ -65,6 +64,15 @@
 .merch {
   /* border: solid 3px red; */
 
+}
+
+.body {
+  border: solid 3px red;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin-left: 30%;
+  
 }
 
 @keyframes App-logo-spin {
