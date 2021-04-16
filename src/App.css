@@ -37,31 +37,40 @@
 .main {
   display: flex;
   justify-content: center;
+  margin-bottom: 5%;
   /* border: solid 3px purple; */
 }
 
 .home {
   color: red;
-  background-color: red;
+  text-decoration: none;
+  
  
 
   /* border: solid 3px red; */
 
 }
 .bio{
-  color: red;
+  color: purple;
+  text-decoration: none;
   /* border: solid 3px red; */
 
 }
 .tour {
+  color: green;
+  text-decoration: none;
   /* border: solid 3px red; */
 
 }
 .news {
+  color: hotpink;
+  text-decoration: none;
   /* border: solid 3px red; */
 
 }
 .merch {
+  color: blue;
+  text-decoration: none;
   /* border: solid 3px red; */
 
 }
@@ -69,9 +78,13 @@
 .body {
   border: solid 3px red;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   width: 40%;
+  height: 50%;
   margin-left: 30%;
+  padding: 50px 50px;
+  
   
 }
 

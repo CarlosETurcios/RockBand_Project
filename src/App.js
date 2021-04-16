@@ -14,15 +14,16 @@ function App() {
       <div className="App" >
         <div className="main">
           <header className="App-header">
-            <div class="home"><Link to="/">Home</Link></div>
-            <div class="bio"><Link to="/Biography">Biography</Link></div>
-            <div class="tour"><Link to="/Tourdates">Tour Dates</Link></div>
-            <div class="news"> <Link to="/News">News</Link></div>
-            <div class='merch'>  <Link to="/Merch">Merch</Link></div>
+            <div class="home1"><Link className="home" to="/">Home</Link></div>
+            <div class="bio1"><Link className="bio" to="/Biography">Biography</Link></div>
+            <div class="tour1"><Link className="tour" to="/Tourdates">Tour Dates</Link></div>
+            <div class="news1"> <Link className="news" to="/News">News</Link></div>
+            <div class='merch1'>  <Link className="merch" to="/Merch">Merch</Link></div>
           </header> 
         </div>  
 
           <div className="body">
+            <h1>Deacon Hill</h1>
             <Route path="/" exact component={Home}/>
             <Route path="/Biography" component={Biography}/>
             <Route path="/Tourdates" component={Tourdates}/>
