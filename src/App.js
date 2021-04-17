@@ -23,7 +23,6 @@ function App() {
         </div>  
 
           <div className="body">
-            <h1>Deacon Hill</h1>
             <Route path="/" exact component={Home}/>
             <Route path="/Biography" component={Biography}/>
             <Route path="/Tourdates" component={Tourdates}/>

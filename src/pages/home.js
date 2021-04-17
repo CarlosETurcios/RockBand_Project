@@ -3,7 +3,8 @@
 function Home() {
     return (
         <div>
-            coming soon!
+            <h1>Deacon Hill</h1>
+            <p>coming soon!</p>
         </div>
     )
 }
