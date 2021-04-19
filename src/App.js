@@ -29,6 +29,10 @@ function App() {
             <Route path="/News" component={News}/>
             <Route path="/Merch" component={Merch}/>
           </div>
+
+          <footer className="footer">
+            <p>this is the footer</p>
+          </footer>
       
       </div>
     </Router>

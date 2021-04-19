@@ -2,7 +2,7 @@
   text-align: center;
   background-image: url(./images/dave-hoefler-eYJwtMpuhJQ-unsplash.jpg);
   position: fixed;
-  min-height: 100%;
+  min-height: 100vh;
   min-width: 100%;
   background-size: cover;
   background-position: center;
@@ -53,6 +53,7 @@
 .bio{
   color: purple;
   text-decoration: none;
+ 
   /* border: solid 3px red; */
 
 }
@@ -82,9 +83,9 @@
   flex-direction: column;
   justify-content: space-around;
   width: 40%;
-  height: 50%;
-  margin-left: 30%;
-  padding: 50px 50px;
+  min-height: 100vh;
+  margin-left: 27%;
+  padding: 20px 20px;
   /* border-image-source: url(./images/ropeborder.jpg)  ;
   border-image-slice: 23%;
   border-image-width: 25%;
@@ -92,6 +93,12 @@
   border-image-repeat: round; */
   
   
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 40%;
 }
 
 @keyframes App-logo-spin {
