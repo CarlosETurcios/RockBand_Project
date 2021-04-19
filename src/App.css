@@ -77,7 +77,7 @@
 
 .body {
  
-  border: solid 50px black; 
+  border: solid 3px black; 
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -85,11 +85,11 @@
   height: 50%;
   margin-left: 30%;
   padding: 50px 50px;
-  border-image-source: url(./images/ropeborder.jpg)  ;
+  /* border-image-source: url(./images/ropeborder.jpg)  ;
   border-image-slice: 23%;
   border-image-width: 25%;
   border-image-outset: 50%;
-  border-image-repeat: round;
+  border-image-repeat: round; */
   
   
 }
