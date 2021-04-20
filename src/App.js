@@ -14,11 +14,13 @@ function App() {
       <div className="App" >
         <div className="main">
           <header className="App-header">
-            <div class="home1"><Link className="home" to="/">Home</Link></div>
-            <div class="bio1"><Link className="bio" to="/Biography">Biography</Link></div>
-            <div class="tour1"><Link className="tour" to="/Tourdates">Tour Dates</Link></div>
-            <div class="news1"> <Link className="news" to="/News">News</Link></div>
-            <div class='merch1'>  <Link className="merch" to="/Merch">Merch</Link></div>
+            <ul>
+              <li class="home1"><Link className="home" to="/">Home</Link></li>
+              <li class="bio1"><Link className="bio" to="/Biography">Biography</Link></li>
+              <li class="tour1"><Link className="tour" to="/Tourdates">Tour Dates</Link></li>
+              <li class="news1"> <Link className="news" to="/News">News</Link></li>
+              <li class='merch1'>  <Link className="merch" to="/Merch">Merch</Link></li>
+            </ul>
           </header> 
         
 
@@ -29,12 +31,12 @@ function App() {
               <Route path="/News" component={News}/>
               <Route path="/Merch" component={Merch}/>
           </div>
-        </div>  
+         
 
-        <footer className="footer">
-            <p>this is the footer</p>
-        </footer>
-      
+          <footer className="footer">
+              <p>this is the footer</p>
+          </footer>
+        </div>
       </div>
     </Router>
   );
