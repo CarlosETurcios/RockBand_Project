@@ -3,7 +3,11 @@
 function Tourdates(){
 
     return(
-        <div>coming soon!</div>
+        
+        <div>
+            <h1> Tour Dates</h1>
+            <p>coming soon!</p>
+        </div>
     )
 }
 

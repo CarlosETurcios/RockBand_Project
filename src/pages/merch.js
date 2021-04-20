@@ -3,7 +3,10 @@
 function Merch(){
 
     return(
-        <div> coming soon!</div>
+        <div> 
+            <h1>Merch</h1>
+            <p>coming soon!</p>
+        </div>
     )
 }
 
