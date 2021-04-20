@@ -20,19 +20,20 @@ function App() {
             <div class="news1"> <Link className="news" to="/News">News</Link></div>
             <div class='merch1'>  <Link className="merch" to="/Merch">Merch</Link></div>
           </header> 
-        </div>  
+        
 
           <div className="body">
-            <Route path="/" exact component={Home}/>
-            <Route path="/Biography" component={Biography}/>
-            <Route path="/Tourdates" component={Tourdates}/>
-            <Route path="/News" component={News}/>
-            <Route path="/Merch" component={Merch}/>
+              <Route path="/" exact component={Home}/>
+              <Route path="/Biography" component={Biography}/>
+              <Route path="/Tourdates" component={Tourdates}/>
+              <Route path="/News" component={News}/>
+              <Route path="/Merch" component={Merch}/>
           </div>
+        </div>  
 
-          <footer className="footer">
+        <footer className="footer">
             <p>this is the footer</p>
-          </footer>
+        </footer>
       
       </div>
     </Router>

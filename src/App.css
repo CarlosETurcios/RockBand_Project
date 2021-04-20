@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   background-image: url(./images/dave-hoefler-eYJwtMpuhJQ-unsplash.jpg);
   position: fixed;
@@ -6,7 +9,7 @@
   min-width: 100%;
   background-size: cover;
   background-position: center;
-  /* border: solid 3px red; */
+  border: solid 3px red; 
 }
 
 .App-logo {
@@ -29,16 +32,17 @@
   align-items: center;
   justify-content: space-around;
   font-size: calc(5px + 2vmin);
-  /* border: solid 3px red; */
+  border: solid 3px red; 
 }
 
 
 
 .main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-bottom: 5%;
-  /* border: solid 3px purple; */
+  height: 100%;
+  border: solid 3px purple; 
 }
 
 .home {
@@ -83,22 +87,27 @@
   flex-direction: column;
   justify-content: space-around;
   width: 40%;
-  min-height: 100vh;
-  margin-left: 27%;
-  padding: 20px 20px;
-  /* border-image-source: url(./images/ropeborder.jpg)  ;
-  border-image-slice: 23%;
-  border-image-width: 25%;
-  border-image-outset: 50%;
-  border-image-repeat: round; */
-  
-  
-}
+  height: 50%;
+  /* min-height: 50vh;
+  margin-left: 27%; */
+  padding: 10px 10px;
+  position: absolute;
+ }
 .footer {
   display: flex;
   justify-content: center;
   height: 100%;
-  width: 40%;
+  width: 30%;
+  border: solid 3px red;
+}
+
+.golden-nugget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 10%;
+  width: 20%;
+  
 }
 
 @keyframes App-logo-spin {
