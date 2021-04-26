@@ -1,5 +1,5 @@
 
-import './App.css';
+import './styling/App.css';
 import Biography from './pages/biography'
 import Tourdates from './pages/tourdates'
 import News from './pages/news'
