@@ -25,8 +25,7 @@
   width: 50%;
   margin: 5px;
   font-size: calc(5px + 2vmin);  
-  border: solid 3px red; 
-}
+ }
 
 
 
@@ -35,33 +34,24 @@
 .home {
   color: red;
   text-decoration: none;
-  border: solid 3px red;
-
-}
+  }
 .bio{
   color: purple;
   text-decoration: none;
-  border: solid 3px red;
-
-}
+  }
 
 .tour {
   color: green;
   text-decoration: none;
-  border: solid 3px red;
-}
+  }
 .news {
   color: hotpink;
   text-decoration: none;
-  border: solid 3px red;
-
-}
+  }
 .merch {
   color: blue;
   text-decoration: none;
-  border: solid 3px red;
-
-}
+  }
 
 .body {
   display: flex;
@@ -88,9 +78,14 @@
   width: 30%; 
   margin-left: 35%;
   }
-
+.item {
+  list-style: none;
+  margin-left: 2rem;
+}
 
  .nav {
+   font-size: 2rem;
+   margin-right: 3rem;
    display: flex;
-   justify-content: space-around;
+   
  }

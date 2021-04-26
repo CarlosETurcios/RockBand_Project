@@ -16,11 +16,11 @@ function App() {
           <header className="App-header">
             <navbar>
               <ul className="nav">
-                <li class="home1"><Link className="home" to="/">Home</Link></li>
-                <li class="bio1"><Link className="bio" to="/Biography">Biography</Link></li>
-                <li class="tour1"><Link className="tour" to="/Tourdates">Tour Dates</Link></li>
-                <li class="news1"> <Link className="news" to="/News">News</Link></li>
-                <li class='merch1'>  <Link className="merch" to="/Merch">Merch</Link></li>
+                <li className="item"><Link className="home" to="/">Home</Link></li>
+                <li className="item"><Link className="bio" to="/Biography">Biography</Link></li>
+                <li className="item"><Link className="tour" to="/Tourdates">Tour Dates</Link></li>
+                <li className="item"> <Link className="news" to="/News">News</Link></li>
+                <li className= "item">  <Link className="merch" to="/Merch">Merch</Link></li>
               </ul>
             </navbar>
           </header> 
