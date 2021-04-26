@@ -73,11 +73,8 @@
   border: solid 3px red; 
 }
 
-.golden-nugget {
-  height: 30%;
-  width: 30%; 
-  margin-left: 35%;
-  }
+
+
 .item {
   list-style: none;
   margin-left: 2rem;

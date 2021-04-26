@@ -1,0 +1,19 @@
+.bio-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pic-section {
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+
+.pic-class {
+    height: 40%;
+    width: 40%; 
+}

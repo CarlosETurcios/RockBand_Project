@@ -1,11 +1,11 @@
 
-
+import "../styling/biostyling.css"
 
 function Biography(){
 
     return(
-        <div>
-            <h1>Biography</h1>
+        <div className="bio-page">
+            <h1 className="title">Biography</h1>
 
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
             eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
@@ -14,8 +14,11 @@ function Biography(){
              Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
             reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
             </p>
-            <img src="/image/oldgoldendugget.jpg" className="golden-nugget" alt="golden-nugget-pic"/>
-            <p>thsi is a pic from old las vegas</p>
+            <div className="pic-section">
+                <img src="/image/oldgoldendugget.jpg" className="pic-class" alt="golden-nugget-pic"/>
+            </div>
+            <p className="pic-dis">thsi is a pic from old las vegas</p>
+
 
         </div>
         
